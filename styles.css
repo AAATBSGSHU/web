@@ -13,6 +13,17 @@ body {
     padding: 0;
 }
 
+header {
+    display: none; /* Hide the top bar */
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 2em;
+    margin: 20px auto;
+    text-align: center;
+}
+
 main {
     width: 80%;
     margin: auto;
@@ -20,7 +31,6 @@ main {
     background-color: #1a1d1f;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    margin-top: 20px;
 }
 
 section {
@@ -64,6 +74,17 @@ a {
 
 a:hover {
     color: #ff3b62;
+}
+
+footer {
+    background-color: #1a1d1f;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    border-top: 1px solid #2a2e2f;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 /* Button styles */
@@ -132,15 +153,4 @@ select:focus {
 
 .toggle-button.active .toggle-thumb {
     left: 32px;
-}
-
-/* Footer styles */
-footer {
-    background: none;
-    color: #ffffff;
-    padding: 10px;
-    text-align: center;
-    border-top: none;
-    position: relative;
-    width: 100%;
 }
