@@ -20,12 +20,14 @@ main {
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     margin-top: 20px;
+    text-align: center;
 }
 
 section {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    align-items: center;
 }
 
 details {
@@ -33,6 +35,8 @@ details {
     border: 1px solid #2a2e2f;
     border-radius: 5px;
     padding: 10px;
+    width: 100%;
+    max-width: 800px;
 }
 
 summary {
@@ -65,77 +69,12 @@ a:hover {
     color: #ff3b62;
 }
 
-button {
-    padding: 10px 20px;
-    background-color: #ff5c82;
-    color: #ffffff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin: 5px;
-}
-
-button:hover {
-    background-color: #ff3b62;
-}
-
-input[type="text"],
-input[type="number"],
-input[type="time"],
-select {
-    width: 100%;
-    padding: 10px;
-    background-color: #1a1d1f;
-    color: #ffffff;
-    border: none;
-    border-radius: 5px;
-    margin: 5px 0;
-}
-
-input[type="text"]:focus,
-input[type="number"]:focus,
-input[type="time"]:focus,
-select:focus {
-    outline: none;
-    background-color: #1f2224;
-}
-
-.toggle-button {
-    width: 60px;
-    height: 30px;
-    background-color: #1a1d1f;
-    border-radius: 15px;
-    cursor: pointer;
-    position: relative;
-    transition: background-color 0.3s;
-    display: inline-block;
-}
-
-.toggle-button.active {
-    background-color: #ff5c82;
-}
-
-.toggle-thumb {
-    width: 26px;
-    height: 26px;
-    background-color: #ffffff;
-    border-radius: 50%;
-    position: absolute;
-    top: 2px;
-    left: 2px;
-    transition: left 0.3s;
-}
-
-.toggle-button.active .toggle-thumb {
-    left: 32px;
-}
-
 footer {
     background: none;
     color: #ffffff;
     padding: 10px;
     text-align: center;
-    border-top: none;
-    position: relative;
+    position: absolute;
+    bottom: 0;
     width: 100%;
 }
