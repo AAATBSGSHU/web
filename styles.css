@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #131516;
+    background-color: #0c0c0c;
     color: #ffffff;
     margin: 0;
     padding: 0;
@@ -16,7 +16,7 @@ main {
     width: 80%;
     margin: auto;
     padding: 20px;
-    background-color: #1a1d1f;
+    background-color: #1c1c1c;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     margin-top: 20px;
@@ -31,7 +31,7 @@ section {
 }
 
 details {
-    background-color: #131516;
+    background-color: #0c0c0c;
     border: 1px solid #2a2e2f;
     border-radius: 5px;
     padding: 10px;
@@ -40,7 +40,7 @@ details {
 }
 
 summary {
-    background: #1a1d1f;
+    background: #1c1c1c;
     color: #ffffff;
     padding: 10px;
     border-radius: 5px;
@@ -48,7 +48,7 @@ summary {
 }
 
 summary:hover {
-    background: #2a2e2f;
+    background: #242424;
 }
 
 ul {
