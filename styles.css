@@ -12,8 +12,8 @@ body {
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #0C0C0C;
-    color: #DEBD69;
+    background-color: #0C0C0C; /* Dark Gray */
+    color: #DEBD69; /* Golden Beige */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,7 +27,7 @@ main {
     width: 80%;
     max-width: 800px;
     padding: 20px;
-    background-color: #1C1C1C;
+    background-color: #1C1C1C; /* Darker Gray */
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
@@ -39,22 +39,22 @@ section {
 }
 
 details {
-    background-color: #0C0C0C;
-    border: 1px solid #242424;
+    background-color: #0C0C0C; /* Dark Gray */
+    border: 1px solid #242424; /* Charcoal Gray */
     border-radius: 5px;
     padding: 10px;
 }
 
 summary {
-    background: #1C1C1C;
-    color: #DEBD69;
+    background: #1C1C1C; /* Darker Gray */
+    color: #DEBD69; /* Golden Beige */
     padding: 10px;
     border-radius: 5px;
     cursor: pointer;
 }
 
 summary:hover {
-    background: #343434;
+    background: #343434; /* Medium Gray */
 }
 
 ul {
@@ -67,17 +67,17 @@ li {
 }
 
 a {
-    color: #DE6969;
+    color: #DE6969; /* Warm Red */
     text-decoration: none;
 }
 
 a:hover {
-    color: #ff3b62;
+    color: #B44C4C; /* Slightly darker Warm Red */
 }
 
 footer {
     background-color: transparent;
-    color: #DEBD69;
+    color: #DEBD69; /* Golden Beige */
     padding: 10px;
     text-align: center;
     position: fixed;
@@ -88,7 +88,7 @@ footer {
 
 button {
     padding: 10px 20px;
-    background-color: #DE6969;
+    background-color: #DE6969; /* Warm Red */
     color: #ffffff;
     border: none;
     border-radius: 5px;
@@ -97,7 +97,7 @@ button {
 }
 
 button:hover {
-    background-color: #ff3b62;
+    background-color: #B44C4C; /* Slightly darker Warm Red */
 }
 
 input[type="text"],
@@ -106,8 +106,8 @@ input[type="time"],
 select {
     width: 100%;
     padding: 10px;
-    background-color: #1C1C1C;
-    color: #DEBD69;
+    background-color: #1C1C1C; /* Darker Gray */
+    color: #DEBD69; /* Golden Beige */
     border: none;
     border-radius: 5px;
     margin: 5px 0;
@@ -118,13 +118,13 @@ input[type="number"]:focus,
 input[type="time"]:focus,
 select:focus {
     outline: none;
-    background-color: #343434;
+    background-color: #343434; /* Medium Gray */
 }
 
 .toggle-button {
     width: 60px;
     height: 30px;
-    background-color: #1C1C1C;
+    background-color: #1C1C1C; /* Darker Gray */
     border-radius: 15px;
     cursor: pointer;
     position: relative;
@@ -133,7 +133,7 @@ select:focus {
 }
 
 .toggle-button.active {
-    background-color: #DE6969;
+    background-color: #DE6969; /* Warm Red */
 }
 
 .toggle-thumb {
