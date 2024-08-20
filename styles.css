@@ -11,26 +11,24 @@ body {
     color: #ffffff;
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
 header {
     display: none; /* Hide the top bar */
 }
 
-h1 {
-    color: #ffffff;
-    font-size: 2em;
-    margin: 20px auto;
-    text-align: center;
-}
-
 main {
     width: 80%;
-    margin: auto;
+    max-width: 800px; /* Set a maximum width for better readability */
     padding: 20px;
     background-color: #1a1d1f;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: 0 auto; /* Center horizontally */
 }
 
 section {
