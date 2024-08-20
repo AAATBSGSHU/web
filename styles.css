@@ -77,14 +77,14 @@ a:hover {
 }
 
 footer {
-    background-color: #1a1d1f;
+    background-color: transparent; /* Set the background to transparent */
     color: #ffffff;
     padding: 10px;
     text-align: center;
-    border-top: 1px solid #2a2e2f;
     position: fixed;
     bottom: 0;
     width: 100%;
+    border: none; /* Remove the border */
 }
 
 /* Button styles */
